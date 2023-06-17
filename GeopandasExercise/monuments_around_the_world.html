@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d6f40dac18a0462a3872886e8bb2a30d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d6f40dac18a0462a3872886e8bb2a30d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d6f40dac18a0462a3872886e8bb2a30d = L.map(
+                "map_d6f40dac18a0462a3872886e8bb2a30d",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    zoomStarts: 3,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_499eb23c4db23247129eb41455480802 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+            var marker_1bcfa6b10febffd1782b75bb1aa8155d = L.marker(
+                [39.91727565, 116.3907694057728],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_474b962ab4d8db2268a1010e399a20ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1db3af7a046a78295ac8c0d92d49333 = $(`<div id="html_e1db3af7a046a78295ac8c0d92d49333" style="width: 100.0%; height: 100.0%;">Name: Forbidden City<br><br>Number of visitors: 17,000,000+</div>`)[0];
+                popup_474b962ab4d8db2268a1010e399a20ec.setContent(html_e1db3af7a046a78295ac8c0d92d49333);
+            
+        
+
+        marker_1bcfa6b10febffd1782b75bb1aa8155d.bindPopup(popup_474b962ab4d8db2268a1010e399a20ec)
+        ;
+
+        
+    
+    
+            var marker_06de5024a9ff7bb7ed1f31a625723a7f = L.marker(
+                [41.9021569, 12.45371206808866],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_27e47c27bad4a70734ab82763fcb2434 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e780e3840d48c1101d5ea90e09839a6a = $(`<div id="html_e780e3840d48c1101d5ea90e09839a6a" style="width: 100.0%; height: 100.0%;">Name: St. Peter's Basilica<br><br>Number of visitors: 11000000</div>`)[0];
+                popup_27e47c27bad4a70734ab82763fcb2434.setContent(html_e780e3840d48c1101d5ea90e09839a6a);
+            
+        
+
+        marker_06de5024a9ff7bb7ed1f31a625723a7f.bindPopup(popup_27e47c27bad4a70734ab82763fcb2434)
+        ;
+
+        
+    
+    
+            var marker_3ca44cb68b33e0cb3b8c28c162b5b8c6 = L.marker(
+                [48.80442524999999, 2.120285270992599],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_0f0b7743552257570be74c86bc86e791 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfd736b53dc9edd27dd36afbe876d9ca = $(`<div id="html_dfd736b53dc9edd27dd36afbe876d9ca" style="width: 100.0%; height: 100.0%;">Name: Palace of Versailles<br><br>Number of visitors: 8100000</div>`)[0];
+                popup_0f0b7743552257570be74c86bc86e791.setContent(html_dfd736b53dc9edd27dd36afbe876d9ca);
+            
+        
+
+        marker_3ca44cb68b33e0cb3b8c28c162b5b8c6.bindPopup(popup_0f0b7743552257570be74c86bc86e791)
+        ;
+
+        
+    
+    
+            var marker_bd03f1ab315214987cd8505f72247d27 = L.marker(
+                [38.88921215000001, -77.05017197314066],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_f521c6ef8d87d4cb35bf9a9b52d19cd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a25375432e95afea4da6787a6b38f2cc = $(`<div id="html_a25375432e95afea4da6787a6b38f2cc" style="width: 100.0%; height: 100.0%;">Name: Lincoln Memorial<br><br>Number of visitors: 7804683</div>`)[0];
+                popup_f521c6ef8d87d4cb35bf9a9b52d19cd5.setContent(html_a25375432e95afea4da6787a6b38f2cc);
+            
+        
+
+        marker_bd03f1ab315214987cd8505f72247d27.bindPopup(popup_f521c6ef8d87d4cb35bf9a9b52d19cd5)
+        ;
+
+        
+    
+    
+            var marker_9168a3b50092f39f8684224a03e36919 = L.marker(
+                [37.97150335, 23.72661765],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_cbf5fa34a261a2d3f32cae247ca2688b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90f17148e3bfa76e1fd244497c6a11fc = $(`<div id="html_90f17148e3bfa76e1fd244497c6a11fc" style="width: 100.0%; height: 100.0%;">Name: Parthenon<br><br>Number of visitors: 7200000</div>`)[0];
+                popup_cbf5fa34a261a2d3f32cae247ca2688b.setContent(html_90f17148e3bfa76e1fd244497c6a11fc);
+            
+        
+
+        marker_9168a3b50092f39f8684224a03e36919.bindPopup(popup_cbf5fa34a261a2d3f32cae247ca2688b)
+        ;
+
+        
+    
+    
+            var marker_aec3f96a14de87d4ea3b4e2a7926a12a = L.marker(
+                [48.8582602, 2.294499054319679],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_63fb6bc075b1cb91bc4b0b27d57ad1a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6850f4466f49ae12faba6a23a77d42e7 = $(`<div id="html_6850f4466f49ae12faba6a23a77d42e7" style="width: 100.0%; height: 100.0%;">Name: Eiffel Tower<br><br>Number of visitors: 7000000</div>`)[0];
+                popup_63fb6bc075b1cb91bc4b0b27d57ad1a0.setContent(html_6850f4466f49ae12faba6a23a77d42e7);
+            
+        
+
+        marker_aec3f96a14de87d4ea3b4e2a7926a12a.bindPopup(popup_63fb6bc075b1cb91bc4b0b27d57ad1a0)
+        ;
+
+        
+    
+    
+            var marker_5790154b40be7d7d8aabdfe74033fe4c = L.marker(
+                [27.1750123, 78.04209683661315],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_e79e54ba391e3dc14a1cbfe7055e417d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5ff249dbe83e31392301dc3d5b871cc = $(`<div id="html_f5ff249dbe83e31392301dc3d5b871cc" style="width: 100.0%; height: 100.0%;">Name: Taj Mahal<br><br>Number of visitors: 6532366</div>`)[0];
+                popup_e79e54ba391e3dc14a1cbfe7055e417d.setContent(html_f5ff249dbe83e31392301dc3d5b871cc);
+            
+        
+
+        marker_5790154b40be7d7d8aabdfe74033fe4c.bindPopup(popup_e79e54ba391e3dc14a1cbfe7055e417d)
+        ;
+
+        
+    
+    
+            var marker_7386ff8e82287027caf29adc514e23a6 = L.marker(
+                [50.9413035, 6.958137997831819],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_4623a4e68e526c433097b2d78a58451b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2888cb3cd54606fbeaf1fb7e2e353fc0 = $(`<div id="html_2888cb3cd54606fbeaf1fb7e2e353fc0" style="width: 100.0%; height: 100.0%;">Name: Cologne Cathedral<br><br>Number of visitors: 6000000</div>`)[0];
+                popup_4623a4e68e526c433097b2d78a58451b.setContent(html_2888cb3cd54606fbeaf1fb7e2e353fc0);
+            
+        
+
+        marker_7386ff8e82287027caf29adc514e23a6.bindPopup(popup_4623a4e68e526c433097b2d78a58451b)
+        ;
+
+        
+    
+    
+            var marker_6188e18c8803d41a32ce322d464af4b4 = L.marker(
+                [59.8845122, 29.9092348004647],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_120bf5967ccf3043d3d2649bcb9ffbf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7367c5e637787fa5ebf068099ab8baff = $(`<div id="html_7367c5e637787fa5ebf068099ab8baff" style="width: 100.0%; height: 100.0%;">Name: Peterhof Palace<br><br>Number of visitors: 5245900</div>`)[0];
+                popup_120bf5967ccf3043d3d2649bcb9ffbf2.setContent(html_7367c5e637787fa5ebf068099ab8baff);
+            
+        
+
+        marker_6188e18c8803d41a32ce322d464af4b4.bindPopup(popup_120bf5967ccf3043d3d2649bcb9ffbf2)
+        ;
+
+        
+    
+    
+            var marker_042f09e584149b21a1c12e2eafc0c95e = L.marker(
+                [38.8909801, -77.0480865560159],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_142b768b6fad3bd2ef039b2ae8609213 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b2023400bc330d1619430612c012979 = $(`<div id="html_2b2023400bc330d1619430612c012979" style="width: 100.0%; height: 100.0%;">Name: Vietnam Veterans Memorial<br><br>Number of visitors: 4719148</div>`)[0];
+                popup_142b768b6fad3bd2ef039b2ae8609213.setContent(html_2b2023400bc330d1619430612c012979);
+            
+        
+
+        marker_042f09e584149b21a1c12e2eafc0c95e.bindPopup(popup_142b768b6fad3bd2ef039b2ae8609213)
+        ;
+
+        
+    
+    
+            var marker_56a2b8e9b32f9d01908c3fd5564b441a = L.marker(
+                [38.88939505, -77.04030796874613],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_d1b23444702ccd5af92c0e6d20313249 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74a9cc733c3674619a4e95df33609a6e = $(`<div id="html_74a9cc733c3674619a4e95df33609a6e" style="width: 100.0%; height: 100.0%;">Name: World War II Memorial<br><br>Number of visitors: 4652865</div>`)[0];
+                popup_d1b23444702ccd5af92c0e6d20313249.setContent(html_74a9cc733c3674619a4e95df33609a6e);
+            
+        
+
+        marker_56a2b8e9b32f9d01908c3fd5564b441a.bindPopup(popup_d1b23444702ccd5af92c0e6d20313249)
+        ;
+
+        
+    
+    
+            var marker_9e775876ed30a19c3de5468730aaccce = L.marker(
+                [39.9487443, -75.1468089],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_68618da2b0204d29437304bebc8d2a84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed73e418f29f4c2803e208ebe019df80 = $(`<div id="html_ed73e418f29f4c2803e208ebe019df80" style="width: 100.0%; height: 100.0%;">Name: Independence National Historical Park<br><br>Number of visitors: 4576436</div>`)[0];
+                popup_68618da2b0204d29437304bebc8d2a84.setContent(html_ed73e418f29f4c2803e208ebe019df80);
+            
+        
+
+        marker_9e775876ed30a19c3de5468730aaccce.bindPopup(popup_68618da2b0204d29437304bebc8d2a84)
+        ;
+
+        
+    
+    
+            var marker_b8c5acc706b41868fc7f0d4593eacbbb = L.marker(
+                [41.4034789, 2.174410333009705],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_3fa393c316a00ddc3db5d11271154f51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7108ba44e4124a4178dfffbbd89bdf17 = $(`<div id="html_7108ba44e4124a4178dfffbbd89bdf17" style="width: 100.0%; height: 100.0%;">Name: Sagrada Família<br><br>Number of visitors: 4500000</div>`)[0];
+                popup_3fa393c316a00ddc3db5d11271154f51.setContent(html_7108ba44e4124a4178dfffbbd89bdf17);
+            
+        
+
+        marker_b8c5acc706b41868fc7f0d4593eacbbb.bindPopup(popup_3fa393c316a00ddc3db5d11271154f51)
+        ;
+
+        
+    
+    
+            var marker_77dc5b032653c721a12751d53521e991 = L.marker(
+                [40.69011015, -74.0453624536292],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_a6ba55c56bfb7545de671e9171b87926 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e2374873f614732024e65d8c64dc622 = $(`<div id="html_3e2374873f614732024e65d8c64dc622" style="width: 100.0%; height: 100.0%;">Name: Statue of Liberty National Monument<br><br>Number of visitors: 4335431</div>`)[0];
+                popup_a6ba55c56bfb7545de671e9171b87926.setContent(html_3e2374873f614732024e65d8c64dc622);
+            
+        
+
+        marker_77dc5b032653c721a12751d53521e991.bindPopup(popup_a6ba55c56bfb7545de671e9171b87926)
+        ;
+
+        
+    
+    
+            var marker_df05dc3735dce975cee43da9454275c2 = L.marker(
+                [19.69335705, -98.88312638220704],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_dcfd69641763205ebdde1be593c13e77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e7819e481a06ecc7416dfcc4351ab21 = $(`<div id="html_2e7819e481a06ecc7416dfcc4351ab21" style="width: 100.0%; height: 100.0%;">Name: Teotihuacán<br><br>Number of visitors: 4070000</div>`)[0];
+                popup_dcfd69641763205ebdde1be593c13e77.setContent(html_2e7819e481a06ecc7416dfcc4351ab21);
+            
+        
+
+        marker_df05dc3735dce975cee43da9454275c2.bindPopup(popup_dcfd69641763205ebdde1be593c13e77)
+        ;
+
+        
+    
+    
+            var marker_380b2b20df84a17af8e0a5ac050a2783 = L.marker(
+                [12.30521965, 76.65538462991165],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_a2855514cc8b65d3d84e7ce2d275b3ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32bb4fe0c3644c83b416aa1ca8a2a099 = $(`<div id="html_32bb4fe0c3644c83b416aa1ca8a2a099" style="width: 100.0%; height: 100.0%;">Name: Mysore Palace<br><br>Number of visitors: 3861162</div>`)[0];
+                popup_a2855514cc8b65d3d84e7ce2d275b3ab.setContent(html_32bb4fe0c3644c83b416aa1ca8a2a099);
+            
+        
+
+        marker_380b2b20df84a17af8e0a5ac050a2783.bindPopup(popup_a2855514cc8b65d3d84e7ce2d275b3ab)
+        ;
+
+        
+    
+    
+            var marker_7dd43b151358e2db4567e2d7f6c11d84 = L.marker(
+                [40.7517375, 14.4905636],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_82d830e905e1ff1eb56af3f8a92f4c18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20de53bab0441feca92b7222d9cfc61b = $(`<div id="html_20de53bab0441feca92b7222d9cfc61b" style="width: 100.0%; height: 100.0%;">Name: Pompeii<br><br>Number of visitors: 3646585</div>`)[0];
+                popup_82d830e905e1ff1eb56af3f8a92f4c18.setContent(html_20de53bab0441feca92b7222d9cfc61b);
+            
+        
+
+        marker_7dd43b151358e2db4567e2d7f6c11d84.bindPopup(popup_82d830e905e1ff1eb56af3f8a92f4c18)
+        ;
+
+        
+    
+    
+            var marker_6a0eaafb45493d0f8caba054709f5edf = L.marker(
+                [52.1650986, 21.09046903439802],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_87f33cd1849111c0f37eb134e9a16143 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7c6d6e4495f888efc83402df5d51774 = $(`<div id="html_f7c6d6e4495f888efc83402df5d51774" style="width: 100.0%; height: 100.0%;">Name: Wilanów Palace<br><br>Number of visitors: 3115797</div>`)[0];
+                popup_87f33cd1849111c0f37eb134e9a16143.setContent(html_f7c6d6e4495f888efc83402df5d51774);
+            
+        
+
+        marker_6a0eaafb45493d0f8caba054709f5edf.bindPopup(popup_87f33cd1849111c0f37eb134e9a16143)
+        ;
+
+        
+    
+    
+            var marker_9fafe8e3b8b3f947aa2857dc2b52deaa = L.marker(
+                [48.18498935, 16.31156843061947],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_b17cb49fd22d09c4958231786b52578c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee8d73bcd04397624715aefa22d51225 = $(`<div id="html_ee8d73bcd04397624715aefa22d51225" style="width: 100.0%; height: 100.0%;">Name: Schönbrunn Palace<br><br>Number of visitors: 3050000</div>`)[0];
+                popup_b17cb49fd22d09c4958231786b52578c.setContent(html_ee8d73bcd04397624715aefa22d51225);
+            
+        
+
+        marker_9fafe8e3b8b3f947aa2857dc2b52deaa.bindPopup(popup_b17cb49fd22d09c4958231786b52578c)
+        ;
+
+        
+    
+    
+            var marker_e79a085717a0c69719110fc48002f37e = L.marker(
+                [55.7990326, 49.10618363094255],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_eb818c051c9d3eb08dd542b5f044f5f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fc2448c4c12a521484316dc9d3a2ecd = $(`<div id="html_7fc2448c4c12a521484316dc9d3a2ecd" style="width: 100.0%; height: 100.0%;">Name: Kazan Kremlin<br><br>Number of visitors: 2893300</div>`)[0];
+                popup_eb818c051c9d3eb08dd542b5f044f5f9.setContent(html_7fc2448c4c12a521484316dc9d3a2ecd);
+            
+        
+
+        marker_e79a085717a0c69719110fc48002f37e.bindPopup(popup_eb818c051c9d3eb08dd542b5f044f5f9)
+        ;
+
+        
+    
+    
+            var marker_1dd2ac56b12df0a035c7fd1b2e6ca691 = L.marker(
+                [51.5081201, -0.07622237194643053],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_95bcf32012059bb64f948b35c59e58cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6d6ff534073be856bfd27bd3e68e51a = $(`<div id="html_b6d6ff534073be856bfd27bd3e68e51a" style="width: 100.0%; height: 100.0%;">Name: Tower of London<br><br>Number of visitors: 2858336</div>`)[0];
+                popup_95bcf32012059bb64f948b35c59e58cf.setContent(html_b6d6ff534073be856bfd27bd3e68e51a);
+            
+        
+
+        marker_1dd2ac56b12df0a035c7fd1b2e6ca691.bindPopup(popup_95bcf32012059bb64f948b35c59e58cf)
+        ;
+
+        
+    
+    
+            var marker_c787094436454b7ad0800fb8eeb52422 = L.marker(
+                [37.17605995, -3.588110277327935],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_bca51f9599cc5480a17a10f60c10fa14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c37f3d96f1a9107fbe7a21c27d57d67e = $(`<div id="html_c37f3d96f1a9107fbe7a21c27d57d67e" style="width: 100.0%; height: 100.0%;">Name: Alhambra<br><br>Number of visitors: 2760000</div>`)[0];
+                popup_bca51f9599cc5480a17a10f60c10fa14.setContent(html_c37f3d96f1a9107fbe7a21c27d57d67e);
+            
+        
+
+        marker_c787094436454b7ad0800fb8eeb52422.bindPopup(popup_bca51f9599cc5480a17a10f60c10fa14)
+        ;
+
+        
+    
+    
+            var marker_4fb1a6ee20c0f6e5e2830b0f5252fd30 = L.marker(
+                [20.68285195, -88.5687196355205],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_dc6a53bb99151c12a09fb705545fd74f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_626d9453861ba24f9e4b5a61bc18c5c5 = $(`<div id="html_626d9453861ba24f9e4b5a61bc18c5c5" style="width: 100.0%; height: 100.0%;">Name: Chichén Itzá<br><br>Number of visitors: 2740000</div>`)[0];
+                popup_dc6a53bb99151c12a09fb705545fd74f.setContent(html_626d9453861ba24f9e4b5a61bc18c5c5);
+            
+        
+
+        marker_4fb1a6ee20c0f6e5e2830b0f5252fd30.bindPopup(popup_dc6a53bb99151c12a09fb705545fd74f)
+        ;
+
+        
+    
+    
+            var marker_87cb540e7ff1fd1d867acd31e12818cd = L.marker(
+                [41.0129795, 28.98406594236272],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_7bd96d1abb0e1113119878d03e52b1b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dca353de30adf0c4bd60a6653c5dff2 = $(`<div id="html_2dca353de30adf0c4bd60a6653c5dff2" style="width: 100.0%; height: 100.0%;">Name: Topkapı Palace<br><br>Number of visitors: 2720119</div>`)[0];
+                popup_7bd96d1abb0e1113119878d03e52b1b3.setContent(html_2dca353de30adf0c4bd60a6653c5dff2);
+            
+        
+
+        marker_87cb540e7ff1fd1d867acd31e12818cd.bindPopup(popup_7bd96d1abb0e1113119878d03e52b1b3)
+        ;
+
+        
+    
+    
+            var marker_c1293fabefad86457eb8e4d67bba528c = L.marker(
+                [39.45575625, -0.3525519698908927],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_6f7fb427392ac996ccbe1916dd066e8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f03d363b7eb79bd41c34e05a79a934fc = $(`<div id="html_f03d363b7eb79bd41c34e05a79a934fc" style="width: 100.0%; height: 100.0%;">Name: Ciudad de las Artes y las Ciencias<br><br>Number of visitors: 2637567</div>`)[0];
+                popup_6f7fb427392ac996ccbe1916dd066e8a.setContent(html_f03d363b7eb79bd41c34e05a79a934fc);
+            
+        
+
+        marker_c1293fabefad86457eb8e4d67bba528c.bindPopup(popup_6f7fb427392ac996ccbe1916dd066e8a)
+        ;
+
+        
+    
+    
+            var marker_4e628743504cbdc2119150e906664bee = L.marker(
+                [21.837977, 73.71916402600398],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_221ce34cd22111a84bdb65264224b911 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2233a52f38661c686e05fb996b6fce89 = $(`<div id="html_2233a52f38661c686e05fb996b6fce89" style="width: 100.0%; height: 100.0%;">Name: Statue of Unity<br><br>Number of visitors: 2,600,000+</div>`)[0];
+                popup_221ce34cd22111a84bdb65264224b911.setContent(html_2233a52f38661c686e05fb996b6fce89);
+            
+        
+
+        marker_4e628743504cbdc2119150e906664bee.bindPopup(popup_221ce34cd22111a84bdb65264224b911)
+        ;
+
+        
+    
+    
+            var marker_e37c5be03e4d2429f8efbe971dbfe411 = L.marker(
+                [55.7514952, 37.61815309550587],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_b69642d0c1864235f7d06cfebfc0b7d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8265627094535cecd81d01d0674a0853 = $(`<div id="html_8265627094535cecd81d01d0674a0853" style="width: 100.0%; height: 100.0%;">Name: Moscow Kremlin<br><br>Number of visitors: 2478622</div>`)[0];
+                popup_b69642d0c1864235f7d06cfebfc0b7d2.setContent(html_8265627094535cecd81d01d0674a0853);
+            
+        
+
+        marker_e37c5be03e4d2429f8efbe971dbfe411.bindPopup(popup_b69642d0c1864235f7d06cfebfc0b7d2)
+        ;
+
+        
+    
+    
+            var marker_5a6429146495a5a0b7f616b2ca890c05 = L.marker(
+                [20.2152358, -87.42953531439221],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_caf350dcfd66b645946b4e9fe89ae063 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2627cffdca2b06d22b29cbbb6f33707a = $(`<div id="html_2627cffdca2b06d22b29cbbb6f33707a" style="width: 100.0%; height: 100.0%;">Name: Tulum<br><br>Number of visitors: 2190000</div>`)[0];
+                popup_caf350dcfd66b645946b4e9fe89ae063.setContent(html_2627cffdca2b06d22b29cbbb6f33707a);
+            
+        
+
+        marker_5a6429146495a5a0b7f616b2ca890c05.bindPopup(popup_caf350dcfd66b645946b4e9fe89ae063)
+        ;
+
+        
+    
+    
+            var marker_17a128401bd7bf8186d8d1d1597c00f7 = L.marker(
+                [55.9486867, -3.200417462951807],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_b76d9d67a3890ede86009d3fb185c6fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97b29f868f5bb8106379edd82e525285 = $(`<div id="html_97b29f868f5bb8106379edd82e525285" style="width: 100.0%; height: 100.0%;">Name: Edinburgh Castle<br><br>Number of visitors: 2111578</div>`)[0];
+                popup_b76d9d67a3890ede86009d3fb185c6fa.setContent(html_97b29f868f5bb8106379edd82e525285);
+            
+        
+
+        marker_17a128401bd7bf8186d8d1d1597c00f7.bindPopup(popup_b76d9d67a3890ede86009d3fb185c6fa)
+        ;
+
+        
+    
+    
+            var marker_174d1979bd624ef310e493feff0b47c0 = L.marker(
+                [37.87903009999999, -4.779535727995244],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_9fed2a72b2464e4034323b91d4355c42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ff391b0072301e4956b8567a645c5b3 = $(`<div id="html_9ff391b0072301e4956b8567a645c5b3" style="width: 100.0%; height: 100.0%;">Name: Mosque–Cathedral of Córdoba<br><br>Number of visitors: 1953133</div>`)[0];
+                popup_9fed2a72b2464e4034323b91d4355c42.setContent(html_9ff391b0072301e4956b8567a645c5b3);
+            
+        
+
+        marker_174d1979bd624ef310e493feff0b47c0.bindPopup(popup_9fed2a72b2464e4034323b91d4355c42)
+        ;
+
+        
+    
+    
+            var marker_3ae92735224eade2069ca06961d697bf = L.marker(
+                [50.0544051, 19.93602225952947],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_0bd5c7f0e4b4a17ee8d3ae7df1dc14f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1218cab33b4ef158ffafffd7bef91014 = $(`<div id="html_1218cab33b4ef158ffafffd7bef91014" style="width: 100.0%; height: 100.0%;">Name: Wawel Castle<br><br>Number of visitors: 1587999</div>`)[0];
+                popup_0bd5c7f0e4b4a17ee8d3ae7df1dc14f8.setContent(html_1218cab33b4ef158ffafffd7bef91014);
+            
+        
+
+        marker_3ae92735224eade2069ca06961d697bf.bindPopup(popup_0bd5c7f0e4b4a17ee8d3ae7df1dc14f8)
+        ;
+
+        
+    
+    
+            var marker_4e46781dff3f4abc5faa4b87f7bbf599 = L.marker(
+                [48.8737791, 2.295037226037673],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_9cc4606ac746fa9541c545e122b8d390 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d32167f477c2dd7de6e3582cb5540ac1 = $(`<div id="html_d32167f477c2dd7de6e3582cb5540ac1" style="width: 100.0%; height: 100.0%;">Name: Arc de Triomphe<br><br>Number of visitors: 1583260</div>`)[0];
+                popup_9cc4606ac746fa9541c545e122b8d390.setContent(html_d32167f477c2dd7de6e3582cb5540ac1);
+            
+        
+
+        marker_4e46781dff3f4abc5faa4b87f7bbf599.bindPopup(popup_9cc4606ac746fa9541c545e122b8d390)
+        ;
+
+        
+    
+    
+            var marker_80cbd20122ed55f5a68993fc7ceb4d83 = L.marker(
+                [40.4173122, -3.7135836],
+                {}
+            ).addTo(map_d6f40dac18a0462a3872886e8bb2a30d);
+        
+    
+        var popup_e5b551ab5c3c384cfbf3e3fe300a6e19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2d8719cb4c20a450d39ac3732c6fe3d = $(`<div id="html_f2d8719cb4c20a450d39ac3732c6fe3d" style="width: 100.0%; height: 100.0%;">Name: Royal Palace of Madrid<br><br>Number of visitors: 1552481</div>`)[0];
+                popup_e5b551ab5c3c384cfbf3e3fe300a6e19.setContent(html_f2d8719cb4c20a450d39ac3732c6fe3d);
+            
+        
+
+        marker_80cbd20122ed55f5a68993fc7ceb4d83.bindPopup(popup_e5b551ab5c3c384cfbf3e3fe300a6e19)
+        ;
+
+        
+    
+</script>
+</html>
